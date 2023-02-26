@@ -3,7 +3,7 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 //Function declarations
 bool init(SDL_Window** window);
