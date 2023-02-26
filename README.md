@@ -1,3 +1,11 @@
+### Local Setup
+- Download Min-GW setup https://sourceforge.net/projects/mingw/files/latest/download
+- Install Min-GW
+- Open Min-GW installation manager and mark mingw32-gcc-g++ for installation
+- Apply for the package to install
+- Add Min-GW to path environmental variable
+- Download and unzip SDL2 zip with -VC suffix
+
 ### To compile my main.cpp
 > g++ main.cpp -o main
 
