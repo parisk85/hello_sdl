@@ -6,10 +6,6 @@
 - Add Min-GW to path environmental variable
 - Download and unzip SDL2 zip with -VC suffix
 
-### To use with Makefile
-- Add make and sys base from Min-GW installation
-- use mingw23-make command to run
-
 ### To compile my main.cpp
 > g++ main.cpp -o main
 
@@ -18,3 +14,7 @@
 
 ### To compile in different input and output dirs
 > g++ -std=c++11 -Isrc/ -Iinclude/ -Ilib/SDL2/include/ src/*.cpp -Llib/SDL2/ -Wl,-rpath,./lib/SDL2/ -lSDL2 -o bin/game
+
+### To compile with Makefile
+- Add make and msys base from Min-GW installation
+- use mingw23-make command to run
