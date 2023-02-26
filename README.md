@@ -13,4 +13,4 @@
 > g++ -IC:\SDL2\SDL2-2.26.3\include main.cpp -o main -L"C:\SDL2\SDL2-2.26.3\lib\x86" -lSDL2 -mconsole
 
 ### To compile in different input and output dirs
-> g++ -IC:\SDL2\SDL2-2.26.3\include src\main.cpp -o build\main -L"C:\SDL2\SDL2-2.26.3\lib\x86" -lSDL2 -mconsole
+> g++ -IC:\SDL2\SDL2-2.26.3\include -Isrc src\game.cpp -o build\game -L"C:\SDL2\SDL2-2.26.3\lib\x86" -lSDL2 -mconsole
