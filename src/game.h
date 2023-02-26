@@ -7,6 +7,7 @@
 
 //Function declarations
 bool init(SDL_Window** window);
+void handleInput(bool &quit);
 bool loadMedia(SDL_Window* window);
 void close(SDL_Window* window);
 
